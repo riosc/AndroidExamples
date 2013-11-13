@@ -17,6 +17,7 @@ public class MainActivity extends Activity {
 		
 		String txt = this.getResources().getString(R.string.hello_world);
 		int an_Int = this.getResources().getInteger(R.integer.an_Int);
+		int same_Int = R.integer.an_Int;
 	}
 
 	@Override
