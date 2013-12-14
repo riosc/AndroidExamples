@@ -9,12 +9,13 @@
         android:targetSdkVersion="18" />
 
     <application
+        android:name ="com.example.examplesproject.activities.ExamplesApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.examplesproject.MainActivity"
+            android:name="com.example.examplesproject.activities.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
